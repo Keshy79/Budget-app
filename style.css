@@ -1,0 +1,60 @@
+body {
+    /* background-color: #f3796e; */
+    background-image: url(image/download-removebg-preview.png);
+    
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+}
+
+.glassy-text {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    color: #333;
+    font-family: system-ui, sans-serif;
+    line-height: 1.5;
+    max-width: 100%;
+    padding: 1rem 2rem;
+    /* transform: translateY(40px); */
+    /* width: 360px;
+    height: 330px; */
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    .glassy-text {
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+}  
+
+#displ{
+    background-color: red;
+    color: white;
+}
+
+
+::placeholder{
+    color: green;
+}
+
+.all {
+  display: flex;
+}
+
+input:focus {
+    box-shadow: none !important;
+  }
+
+.nana {
+    font-weight: 900;
+    font-size: 20px;
+    color: green;
+}
+
+
+
